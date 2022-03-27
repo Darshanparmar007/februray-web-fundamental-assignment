@@ -1,0 +1,19 @@
+#header{
+    text-align: center;
+}
+#container{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(250, 119, 255);
+    width: fit-content;
+    text-align: center;
+}
+.main{
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    
+}
+#maincontainer{
+    background-image: url(https://www.teahub.io/photos/full/95-951245_forest-background-desktop.jpg);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css"
+</head>
+<body>
+    <form class="myform">
+        <header id="title"> 
+            <h1>Registration Form</h1> 
+        </header> <br>
+        <section id="container">
+            <div>
+                <form>
+                    <div>
+                        <div>
+                            <label for="Name"><b>User Name</b></label>>
+                            
+                            <input id="Name" type="text" name="Name">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Age"><b>Age</b></label>
+                            <input id="Age" type="number" name="Age">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Number"><b>Phone Number</b></label>
+                            <input id="Number" type="mobile number" name="Phone Number">
+                        </div>
+                        
+                        <div> <p><b>Gender :</b></p>
+                            <label for="male">Male</label>
+                            <input id="male" type="radio" name="suggest">
+                            <label for="Female">Female</label>
+                            <input id="Female" type="radio" name="suggest">
+                        </div> <br>
+                        <div>
+                            <label for="Email"><b>Email Address</b></label>
+                            <input type="email" name="Email" placeholder="@gmail.com">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Password"><b>Password</b></label>
+                            <input id="Password" type="password" name="Password" required maxlength="8">
+                        </div>
+                         <hr>
+                        <div>
+                            <label>
+                                Have you ever worked in any company before this ?
+                            </label>
+                            <div>
+                                <input id="one" type="radio" name="suggest" checked>
+                                <label for="one">YES</label>
+                                <br>
+                                <input id="two" type="radio" name="suggest">
+                                <label for="two">NO</label>
+                            </div>
+                            
+                            <hr>
+                            <div>
+                                <input id="check" type="checkbox"/> <label for="check">Accept tearm and conditions</label>
+                                
+                            </div> <br>
+                            <button>Apply</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        </form>
+</body>
+</html>

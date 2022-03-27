@@ -1,0 +1,18 @@
+.myform{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 40px;
+    width: fit-content;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#title{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 223, 85);
+    padding: ;
+}
+#container{
+    background-color: rgb(106, 255, 130);
+    padding: 10px;
+}
