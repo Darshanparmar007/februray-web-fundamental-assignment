@@ -1,0 +1,43 @@
+body{
+   //* background-color: khaki;    *//
+  }
+  #head{
+      text-align: center;
+      color: blue;
+  }
+  .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between
+  }
+  .menu{
+      padding: 10px;
+  }
+  
+  .gallery{
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  
+  .image{
+      padding: 20px;
+  }
+  
+  a.btn:hover{
+      color: red;
+     
+  }
+  
+  .button{
+     
+     background-color: rgb(154, 33, 210);
+     border-radius: 5px;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+  }
+  
+  

@@ -1,0 +1,56 @@
+body {
+  background: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xlYXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+
+.container {
+  width: 1000px;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.gridText {
+  border: 2px solid skyblue;
+  grid-column: 4 / span 1;
+  grid-row: 1;
+}
+
+.gridForm {
+  background-color: white;
+  padding-left: 20px;
+  grid-column: 8 / span 6;
+  grid-row: 3 / span 12;
+  border-radius: 20px;
+}
+
+.head {
+  grid-column: 6 / span 12;
+  grid-row: 3;
+  text-align: center;
+}
+
+.para {
+  grid-column: 6 / span 6;
+  grid-row: 4;
+  text-align: center;
+}
+
+.email,
+.email1,
+.name,
+.name1,
+.name2,
+.name3,
+.pass,
+.pass2,
+.date,
+.dategrid,
+.dategrid1,
+.dategrid2 {
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: rgb(10, 164, 185);
+  color: white;
+  text-align: center;
+}
