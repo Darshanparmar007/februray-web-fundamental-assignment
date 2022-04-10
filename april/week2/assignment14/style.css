@@ -1,0 +1,24 @@
+h3-with-class{
+    padding: 50px;
+    background-color: bisque;
+    border: 1px solid rgb(17, 10, 10);
+    border-radius: 2px;
+}
+
+.one{
+    background-color: rgb(100, 62, 4);
+}
+.two{
+    background-color: rgb(90, 6, 24);
+}
+
+.three{
+    background-color: rgb(171, 100, 13);
+}
+.four{
+    background-color: rgb(83, 118, 15);
+}
+
+.h3-with-class{
+    border: 2px solid rgb(229, 14, 57);
+}
