@@ -1,0 +1,30 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.maincard{
+    width:300px;
+    height: 54vh;
+    background-color: rgb(93, 52, 14);
+    border: 2px solid rosybrown;
+    padding: 8px;
+    margin: 20px;
+    margin-left: 30%;
+    border-radius: 10px;;
+}
+.image{
+   margin-top: 10px;
+   margin-left: 35px;;
+   padding: 10px;;
+   border-radius: 10%;
+   border: 2px dotted whitesmoke;
+   
+}
+.name{
+    padding: 20px;;
+    text-align: center;
+    color: rgb(203, 202, 202);
+    font-weight: 100;
+    letter-spacing: 2px;;
+}
